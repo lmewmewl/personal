@@ -65,6 +65,22 @@ export default {
         border-left: 2px solid #1B5BFF;
     }
 
+    @media (max-width: 768px) {
+        .about-info {
+            flex-direction: column;
+        }
+
+        .about-info .text-info {
+            margin-bottom: 30px;
+            order: 1;
+        }
+
+        .about-info .my-photo {
+            max-width: 100%;
+            margin-right: 0px;
+            order: 2;
+        }
+    }
 
 
 </style>
