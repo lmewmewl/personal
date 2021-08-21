@@ -25,6 +25,11 @@ $color-lightBlack: #282828;
     flex-direction: column;
 }
 
+#__nuxt,
+#__layout {
+    height: 100%;
+}
+
 header {
     display: flex;
     margin: 20px 0px 80px;

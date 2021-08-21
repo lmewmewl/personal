@@ -39,7 +39,6 @@ export default {
     data () {
         return {
             menuActive: false,
-            langs: ['en', 'ru' ]
         }
     },
     methods: {

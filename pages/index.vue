@@ -1,9 +1,9 @@
 <template>
     <div class="main-info">
         <div class="about-text">
-            {{$t("helloMyName")}} <nuxt-link class="link" to="/about">{{$t('myName')}}!</nuxt-link>
+            {{$t("helloMyName")}} <nuxt-link class="link" :to="localePath('/about')">{{$t('myName')}}!</nuxt-link>
         <br> <span class="decoration">&lt;</span> {{$t('myProfession')}} <span class="decoration">/&gt;</span></div>
-        <nuxt-link  class="link lets-start"  to="/about" >
+        <nuxt-link  class="link lets-start"  :to="localePath('/about')" >
             <img class="fireworks firwork-first" src="/img/icons/fireworks.png"  v-if="hover">
             <img class="fireworks firwork-second" src="/img/icons/fireworks.png" v-if="hover" alt="">
             <span  v-on:mouseover="mouseOver"
@@ -14,6 +14,19 @@
 
 <script>
 export default {
+    head () {
+        return {
+            title: this.$t('indexTitle'),
+            meta: [
+                {
+                    hid: this.$t('indexDescription'),
+                    name: this.$t('indexTitle'),
+                    content: this.$t('indexContent')
+                }
+            ],
+        }
+    },
+
     data () {
         return {
             hover: false
@@ -28,11 +41,7 @@ export default {
             this.hover = false
         }
     },
-    watch: {
-      '$route' (to, from) {
-        document.title = to.meta.title || 'Pump'
-      }
-    }
+
 }
 </script>
 

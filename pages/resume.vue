@@ -182,6 +182,18 @@
 
 <script>
 export default {
+    head () {
+        return {
+            title: this.$t('resumeTitle'),
+            meta: [
+                {
+                    hid: this.$t('resumeDescription'),
+                    name: this.$t('resumeTitle'),
+                    content: this.$t('resumeContent')
+                }
+            ],
+        }
+    },
     data() {
         return {
             colHidden: true

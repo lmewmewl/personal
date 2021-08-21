@@ -11,6 +11,23 @@
     </div>
 </template>
 
+<script>
+export default {
+        head () {
+        return {
+            title: this.$t('contactsTitle'),
+            meta: [
+                {
+                    hid: this.$t('contactsDescription'),
+                    name: this.$t('contactsTitle'),
+                    content: this.$t('contactsContent')
+                }
+            ],
+        }
+    },
+}
+</script>
+
 <style scoped>
     .contact {
         padding-top: 20px;

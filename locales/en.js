@@ -125,6 +125,25 @@ const messagesEn = {
         myExp30: 'Assistance to bank customers with self-service devices',
         myExp31: 'Consulting and referral to responsible specialists',
 
+
+        // header
+
+        indexTitle: 'Hello! This is main page of my site!',
+        aboutTitle: 'About me',
+        resumeTitle: 'Resume',
+        contactsTitle: 'My contacts',
+
+        indexDescription: 'Main page, frontend developer',
+        aboutDescription: 'About me, frontend developer',
+        resumeDescription: 'Resume, frontend developer',
+        contactsDescription: 'Contats, frontend developer',
+
+        
+        indexContent: 'Site of frontend developer',
+        aboutContent: 'About me, frontend developer',
+        resumeContent: 'Resume of frontend developer',
+        contactsContent: 'Contacts of frontend developer',
+
     }
 
 }

@@ -22,16 +22,16 @@
 <script>
 
 export default {
-     head () {
+    head () {
         return {
-            title: this.$t('aboutText1'),
+            title: this.$t('aboutTitle'),
             meta: [
-            {
-                hid: 'description',
-                name: 'description',
-                content: 'my website description'
-            }
-        ],
+                {
+                    hid: this.$t('aboutDescription'),
+                    name: this.$t('aboutTitle'),
+                    content: this.$t('aboutContent')
+                }
+            ],
     }
   }
 }
