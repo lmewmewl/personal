@@ -96,7 +96,7 @@
                             <p>
                                 HTML5<br>
                                 CSS (Vanila CSS, LESS, SCSS, Bootstrap)<br>
-                                Javascript (jQuery, Vue JS)<br>
+                                Javascript (jQuery, Vue JS, Nuxt JS)<br>
                                 SVG<br>
                                 Git
                             </p>
