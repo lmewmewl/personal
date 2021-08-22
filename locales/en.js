@@ -13,9 +13,9 @@ const messagesEn = {
     
         // about
         someAboutMe: 'A little about me',
-        aboutText1: 'My name is Constantine, in professional sphere i\'m doing ',
+        aboutText1: 'My name is Constantine, i\'m ',
         aboutText2: 'frontend development and project management.',
-        aboutText3: 'I currently live in',
+        aboutText3: 'Currently I live in',
         aboutText4: 'Saint-Petersburg',
         aboutText5: ' (but ready to move to European countries ;) ).',
         aboutText6: 'I like working with everything that is visual and has a code, so I decided to go to',
@@ -82,7 +82,7 @@ const messagesEn = {
         otherSkill5: 'Organization of an ergonomic workspace',
         otherSkill6: 'Basic concepts of blockchain systems',
         otherSkill7: 'DeFi user',
-        otherSkill8: 'English B2',
+        otherSkill8: 'English B1',
 
 
 
@@ -94,12 +94,12 @@ const messagesEn = {
 
 
         myExp1: 'Project management',
-        myExp2: 'Communication with Russian and foreign clients',
+        myExp2: 'Communication with Russian and foreign customers',
         myExp3: 'Meetings protocols creation',
         myExp4: 'Collection and formalization of requirements for tasks',
         myExp5: 'Estimation of terms, determination of implementer',
         myExp6: 'Quality control of tasks',
-        myExp7: 'Participation in the development of inner product',
+        myExp7: 'Participation in the development of internal product',
         myExp8: 'Development of corporate portals',
         myExp9: 'Development of internal modules and applications',
         myExp10: 'Support and expansion of corporate portals',
@@ -109,12 +109,12 @@ const messagesEn = {
         myExp14: 'Landing page development',
         myExp15: 'Customer technical support',
         myExp16: 'Layout based development',
-        myExp17: 'Bootstrap markup',
-        myExp18: 'PixelPerfect makup',
-        myExp19: 'Custom CMS (yii) install and  layout editing',
+        myExp17: 'Bootstrap based development',
+        myExp18: 'PixelPerfect based development',
+        myExp19: 'Custom CMS (yii based) install and  layout editing',
         myExp20: 'Setting up advertising campaigns on Avito',
-        myExp21: 'Installing and monitoring of Google Adwards and Yandex.Metrica counters',
-        myExp22: 'Consulting and training clients on custom CMS',
+        myExp21: 'Installing and monitoring of Google Tag Manager and Yandex.Metrica counters',
+        myExp22: 'Consulting and training customers on custom CMS',
         myExp23: 'Repair of office equipment',
         myExp24: 'Repair of PC, laptops',
         myExp25: 'Repair of phones, smartphones',
