@@ -14,7 +14,7 @@ const messagesEn = {
         // about
         someAboutMe: 'A little about me',
         aboutText1: 'My name is Constantine, i\'m ',
-        aboutText2: 'frontend development and project manager.',
+        aboutText2: 'frontend developer and project manager.',
         aboutText3: 'Currently I live in',
         aboutText4: 'Saint-Petersburg',
         aboutText5: ' (ready to move abroad).',
