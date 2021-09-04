@@ -12,6 +12,7 @@
     "@nuxtjs/i18n": "^7.0.2",
     "core-js": "^3.15.1",
     "nuxt": "^2.15.7",
+    "nuxt-vue-multiselect": "^1.0.4",
     "sass": "^1.38.0",
     "sass-loader": "^10.2.0"
   },

@@ -40,6 +40,7 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     '@nuxtjs/i18n',
+    'nuxt-vue-multiselect'
   ],
   i18n: {
     locales: ['en', 'ru'],

@@ -6,14 +6,9 @@
             </nuxt-link>
         </div>
         <div class="localeSwitcher">
-            <select :value="$i18n.locale" @change="$i18n.setLocale($event.target.value)">
-                <option
-                    v-for="(lang, i) in $i18n.locales"
-                    :key="`lang-${i}`"
-                    :value="lang">
-                    {{ lang }}
-                </option>
-            </select>
+            <multiselect v-model="$i18n.locale" :value="$i18n.locale"  :options="$i18n.locales" :searchable="false" :showLabels="false" :allow-empty="false" >
+             <template slot="option"  slot-scope="props">{{ props.option }}</template>
+            </multiselect>
         </div>
         <nav class="main-menu" v-bind:class="{active: menuActive}">
             <button class="burger" v-on:click="burgerActivation">
@@ -33,13 +28,19 @@
 </template>
 
 <script>
-
+import Multiselect from 'vue-multiselect'
 
 export default {
+    
+    components: {
+        Multiselect
+    },
     data () {
+
         return {
             menuActive: false,
         }
+         
     },
     methods: {
         burgerActivation: function () {
@@ -53,8 +54,11 @@ export default {
         resetClass: function () {
             this.menuActive = false
             document.body.classList.remove('menuActive')
-        }
+        },
 
+        selectAction: function() {
+            console.log(this.event)
+        }
         
 
     },
