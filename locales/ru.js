@@ -45,7 +45,7 @@ const messagesRu = {
     titleCompanie5: 'ОАО Сбербанк',
     
 
-    titleSkill1: 'Фронтенд',
+    titleSkill1: 'Разработка',
     titleSkill2: 'UI / UX, обработка',
     titleSkill3: 'Менеджмент',
     titleSkill4: 'Прочее',
@@ -66,65 +66,116 @@ const messagesRu = {
 
 
 
-    managementSkill1: 'Коммуникация с enterpise заказчиками',
-    managementSkill2: 'Протоколирование',
-    managementSkill3: 'Сбор и формализация требований',
-    managementSkill4: 'Оценка сроков',
-    managementSkill5: 'Контроль качества',
-    managementSkill6: 'Работа с счетами',
-    managementSkill7: 'Управление командой разработки',
-    managementSkill8: 'Управление внутренним продуктом',
-    managementSkill9: 'Планирование',
-    managementSkill10: 'Прототипирование',
-
-    otherSkill1: 'Управление и съемка с БПЛА (FPV, DJI)',
-    otherSkill2: 'Фотография на полупрофессиональные зеркальные фотокамеры',
-    otherSkill3: 'Пайка компонентов ',
-    otherSkill4: 'Отличное знание ПК и орг. техники',
-    otherSkill5: 'Организация эргономичного рабочего пространства',
-    otherSkill6: 'Базовые понятия блокчейн систем',
-    otherSkill7: 'Пользователь DeFi',
-    otherSkill8: 'Английский В1',
-
-
     myPosition1: 'Фронтенд разработчик, менеджер проектов',
     myPosition2: 'Фронтенд разработчик',
     myPosition3: 'Верстальщик, контент менеджер',
     myPosition4: 'Сервисный инженер',
     myPosition5: 'Промоутер-консультант',
 
-    myExp1: 'Ведение проектной деятельности',
-    myExp2: 'Коммуникация с российскими и зарубежными клиентами',
-    myExp3: 'Составление протоколов встреч',
-    myExp4: 'Сбор и формализация требований к задачам',
-    myExp5: 'Оценка сроков, определение исполнителей',
-    myExp6: 'Контроль качества выполнения задач',
-    myExp7: 'Участие в развитии внутреннего продукта',
-    myExp8: 'Разработка корпоративных порталов',
-    myExp9: 'Разработка внутренних модулей и приложений',
-    myExp10: 'Поддержка и расширение корпоративных порталов',
-    myExp11: 'Разработка приложений и сервисов с использованием Vue JS',
-    myExp12: 'Редактирование графики и макетов',
-    myExp13: 'Разработка сайтов',
-    myExp14: 'Разработка лендингов (landing page)',
-    myExp15: 'Техническая поддержка клиентов',
-    myExp16: 'Верстка по макетам',
-    myExp17: 'Bootstrap верстка',
-    myExp18: 'PixelPerfect верстка',
-    myExp19: 'Разворачивание кастомной CMS (yii) и натягивание сверстаных шаблонов',
-    myExp20: 'Настройка рекламных компаний на Avito',
-    myExp21: 'Подключение и мониторинг счетчиков Google Adwards и Яндекс.Метрика',
-    myExp22: 'Консультация и обучение клиентов по кастомной CMS',
-    myExp23: 'Ремонт орг. техники',
-    myExp24: 'Ремонт стационарных компьютеров, ноутбуков',
-    myExp25: 'Ремонт телефонов, смартфонов ',
-    myExp26: 'Ремонт комплектующих (материнские платы, видеоадаптеры)',
-    myExp27: 'Профилактика и диагностика компьютеров и орг техники',
-    myExp28: 'Монтаж сетей, настройка роутеров и модемов',
-    myExp29: 'Заправка картриджей',
-    myExp30: 'Помощь клиентам банка с устройствами самообслуживания',
-    myExp31: 'Консультирование и перенаправление к ответственным специалистам',
+    skillsDev: [
+        {skill: 'HTML5'},
+        {skill: 'CSS (Vanila CSS, LESS, SCSS, Bootstrap)'},
+        {skill: 'Javascript (jQuery, Vue JS, Nuxt JS)'},
+        {skill: 'Dart (Flutter)'},
+        {skill: 'SVG'},
+        {skill: 'Git'},
+    ],
 
+    uxui: [
+        {skill: 'Figma'},
+        {skill: 'Photoshop'},
+        {skill: 'Lightroom'},
+        {skill: 'CorelDRAW'},
+    ],
+
+
+    management: [
+        {skill: 'Коммуникация с enterpise заказчиками'},
+        {skill: 'Протоколирование'},
+        {skill: 'Сбор и формализация требований'},
+        {skill: 'Оценка сроков'},
+        {skill: 'Контроль качества выполнения задач'},
+        {skill: 'Работа с счетами'},
+        {skill: 'Управление командой разработки'},
+        {skill: 'Управление внутренним продуктом'},
+        {skill: 'Планирование'},
+        {skill: 'Прототипирование'},
+    ],
+
+    otherSkillz: [
+        {skill: 'Управление и съемка с БПЛА (FPV, DJI)'},
+        {skill: 'Фотография на полупрофессиональные зеркальные фотокамеры'},
+        {skill: 'Пайка компонентов '},
+        {skill: 'Отличное знание ПК и орг. техники'},
+        {skill: 'Организация эргономичного рабочего пространства'},
+        {skill: 'Базовые понятия блокчейн систем'},
+        {skill: 'Пользователь DeFi'},
+        {skill: 'Английский В1'},
+    ],
+
+
+    managmentExp: [
+        {skill: 'Cross-functional team management.'},
+        {skill: 'Stakeholders management: feedback collection, backlog grooming.'},
+        {skill: 'Progress tracking and reporting.'},
+        {skill: 'Project documentation development (project knowledge base).'},
+        {skill: 'Stakeholders management.'},
+        {skill: 'Creating design prototypes.'},
+        {skill: 'Clarified the requirements, interfaces, and architecture.'},
+        {skill: 'Delivered on time and on budget.'},
+        {skill: 'Analyzing risks, mitigated issues and reported;'},
+        {skill: 'Communication and management foreign clients (Germany).'},
+    ],
+
+    
+    expDevMCArt: [
+        {skill: 'Developing enterprise portals for intranet / extranet clients (B2B, B2C), with IE10 support.'},
+        {skill: 'Developing internal modules and apps for marketplace.'},
+        {skill: 'Developing apps using Bitrix REST API.'},
+        {skill: 'Developing apps and services using Vue JS (v2).'},
+        {skill: 'Developing internal mobile product using Flutter framework.'},
+        {skill: 'Developing and maintaining a knowledge base'},
+        {skill: ' Communicated with back-end developers for any front-end problematic issues.'},
+        {skill: 'UX/UI consult.'},
+        {skill: 'Design editing and creaction (Adobe PS, Figma).'}
+    ],
+
+    expDevDigimatix: [
+        {skill: 'Creating modular, responsive templates using modern CSS techniques (include Bootstrap) and JavaScript libraries (GULP).'},
+        {skill: 'Creating teamplates for highload B2C marketplaces.'},
+        {skill: 'Landing page development.'},
+        {skill: 'Implementing PixelPerfect layouts to existing websites.'},
+        {skill: 'Communication and tech support for clients.'},
+        {skill: 'UX/UI consulting.'},
+        {skill: 'Editing graphics for web development (Adobe PS).'},
+    ],
+
+    expDevMKMedia: [
+        {skill: 'Developing cross-browser/platform HTML5, CSS and JavaScript to match design specs for complex page layouts while adhering to code standards.'},
+        {skill: 'Using best practices in HTML and CSS to develop a static site based from a static image of a website design'},
+        {skill: 'Implementing a mobile-first approach to existing websites.'},
+        {skill: 'Close collaborating with designers and back-end dev team.'},
+        {skill: 'Working directly with client stakeholders to develop technical solutions for business cases.'},
+        {skill: 'Landing page development'},
+        {skill: 'Editing graphics for web development (Adobe PS)'},
+    ],
+
+    expEngCSaS: [
+        {skill: 'Repair of office equipment'},
+        {skill: 'Repair of PC, laptops'},
+        {skill: 'Repair of phones, smartphones'},
+        {skill: 'Repair of components (motherboards, video adapters)'},
+        {skill: 'Diagnostics of computers and office equipment.'},
+        {skill: 'Installation of networks, setting up routers and modems.'},
+        {skill: 'Refilling cartridges.'},
+    ],
+
+    expPromSber: [
+        {skill: 'Assisting customers with self-service devices and ATMs'},
+        {skill: 'Services consulting'},
+    ],
+
+    
 
 
     // header

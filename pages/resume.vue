@@ -3,30 +3,24 @@
         <div class="resume">
             <h1>{{$t('titleResume')}}</h1>
             <div class="resume-row">
-                <section class="resume-col" v-on:click="colAction">
+                <section class="resume-col" >
                     <h2>{{$t('titleExp')}}</h2>
                     <article class="resume-item">
                         <h3 class="resume-item__heading">2018 - {{$t('currentTimeTitle')}}</h3>
                         <a href="https://www.mcart.ru/" target="_blank"   class="resume-item__link">{{$t('titleCompanie1')}}</a>
                         <div class="resume-item__subtitle">{{$t('myPosition1')}}</div>
                         <div class="resume-item__description">
-                             <p>
-                                 {{$t('myExp1')}}<br>
-                                 {{$t('myExp2')}}<br>
-                                 {{$t('myExp3')}}<br>
-                                 {{$t('myExp4')}}<br>
-                                 {{$t('myExp5')}}<br>
-                                 {{$t('myExp6')}}
-                            </p>
-                            <p>
-                                {{$t('myExp7')}}<br>
-                                 {{$t('myExp8')}}<br>
-                                 {{$t('myExp9')}}<br>
-                                 {{$t('myExp10')}}<br>
-                                 {{$t('myExp11')}}<br>
-                                 {{$t('myExp12')}}
 
-                            </p>
+                            <h4>Management</h4>
+                            <ul class="exp-list">
+                                <li v-for="item in $t('managmentExp')" :key="item.skill">{{ item.skill }}</li>
+                            </ul>
+                            <h4>Development</h4>
+                            <ul class="exp-list">
+                                <li v-for="item in $t('expDevMCArt')" :key="item.skill">{{ item.skill }}</li>
+                            </ul>
+                            
+
                         </div>
                     </article>
                     <article class="resume-item">
@@ -34,12 +28,9 @@
                         <a href="https://www.alkodesign.ru/" target="_blank"  class="resume-item__link">{{$t('titleCompanie2')}}</a>
                         <div class="resume-item__subtitle">{{$t('myPosition2')}}</div>
                         <div class="resume-item__description">
-                            <p>
-                                {{$t('myExp13')}}<br>
-                                 {{$t('myExp14')}}<br>
-                                 {{$t('myExp15')}}<br>
-                                 {{$t('myExp12')}}
-                            </p>
+                            <ul class="exp-list">
+                                <li v-for="item in $t('expDevDigimatix')" :key="item.skill">{{ item.skill }}</li>
+                            </ul>
                         </div>
                     </article>
                     <article class="resume-item">
@@ -47,17 +38,9 @@
                         <a href="https://mkmedia.ru/" target="_blank"  class="resume-item__link">{{$t('titleCompanie3')}}</a>
                         <div class="resume-item__subtitle">{{$t('myPosition3')}}</div>
                         <div class="resume-item__description">
-                            <p>
-                               {{$t('myExp16')}}<br>
-                               {{$t('myExp17')}}<br>
-                               {{$t('myExp18')}}<br>
-                               {{$t('myExp19')}}<br>
-                               {{$t('myExp20')}}<br>
-                               {{$t('myExp21')}}<br>
-                               {{$t('myExp22')}}<br>
-
-                               {{$t('myExp12')}}
-                            </p>
+                           <ul class="exp-list">
+                                <li v-for="item in $t('expDevMKMedia')" :key="item.skill">{{ item.skill }}</li>
+                            </ul>
                         </div>
                     </article>
                     <article class="resume-item">
@@ -65,15 +48,9 @@
                         <a class="resume-item__link">{{$t('titleCompanie4')}}</a>
                         <div class="resume-item__subtitle">{{$t('myPosition4')}}</div>
                         <div class="resume-item__description">
-                            <p>
-                                {{$t('myExp23')}}<br>
-                               {{$t('myExp24')}}<br>
-                               {{$t('myExp25')}}<br>
-                               {{$t('myExp26')}}<br>
-                               {{$t('myExp27')}}<br>
-                               {{$t('myExp28')}}<br>
-                               {{$t('myExp29')}}
-                            </p>
+                           <ul class="exp-list">
+                                <li v-for="item in $t('expEngCSaS')" :key="item.skill">{{ item.skill }}</li>
+                            </ul>
                         </div>
                     </article>
                     <article class="resume-item">
@@ -81,73 +58,49 @@
                         <a href="https://www.sberbank.ru/" target="_blank"  class="resume-item__link">{{$t('titleCompanie5')}}</a>
                         <div class="resume-item__subtitle">{{$t('myPosition5')}}</div>
                         <div class="resume-item__description">
-                            <p>
-                               {{$t('myExp30')}}<br>
-                               {{$t('myExp31')}}
-                            </p>
+                           <ul class="exp-list">
+                                <li v-for="item in $t('expPromSber')" :key="item.skill">{{ item.skill }}</li>
+                            </ul>
                         </div>
                     </article>
                 </section>
-                <section class="resume-col" v-on:click="colAction" >
+                <section class="resume-col"  >
                     <h2>{{$t('titleSkilzzz')}}</h2>
                     <article class="resume-item">
                         <h3 class="resume-item__heading">{{$t('titleSkill1')}}</h3>
                         <div class="resume-item__description">
-                            <p>
-                                HTML5<br>
-                                CSS (Vanila CSS, LESS, SCSS, Bootstrap)<br>
-                                Javascript (jQuery, Vue JS, Nuxt JS)<br>
-                                SVG<br>
-                                Git
-                            </p>
+                           <ul class="exp-list">
+                                <li v-for="item in $t('skillsDev')" :key="item.skill">{{ item.skill }}</li>
+                            </ul>
                         </div>
                     </article>
                     <article class="resume-item">
                         <h3 class="resume-item__heading">{{$t('titleSkill2')}}</h3>
                         <div class="resume-item__description">
-                            <p>
-                                Figma<br>
-                                Photoshop<br>
-                                Lightroom<br>
-                                CorelDRAW
-                            </p>
+                           <ul class="exp-list">
+                                <li v-for="item in $t('uxui')" :key="item.skill">{{ item.skill }}</li>
+                            </ul>
                         </div>
                     </article>
                     <article class="resume-item">
                         <h3 class="resume-item__heading">{{$t('titleSkill3')}}</h3>
                         <div class="resume-item__description">
-                            <p>
-                                {{$t('managementSkill1')}}<br>
-                                {{$t('managementSkill2')}}<br>
-                                {{$t('managementSkill3')}}<br>
-                                {{$t('managementSkill4')}}<br>
-                                {{$t('managementSkill5')}}<br>
-                                {{$t('managementSkill6')}}<br>
-                                {{$t('managementSkill7')}}<br>
-                                {{$t('managementSkill8')}}<br>
-                                {{$t('managementSkill9')}}<br>
-                                {{$t('managementSkill10')}}
-                            </p>
+                           <ul class="exp-list">
+                                <li v-for="item in $t('management')" :key="item.skill">{{ item.skill }}</li>
+                            </ul>
                         </div>
                     </article>
                     <article class="resume-item">
                         <h3 class="resume-item__heading">{{$t('titleSkill4')}}</h3>
 
                         <div class="resume-item__description">
-                            <p>
-                                {{$t('otherSkill1')}}<br>
-                                {{$t('otherSkill2')}}<br>
-                                {{$t('otherSkill3')}}<br>
-                                {{$t('otherSkill4')}}<br>
-                                {{$t('otherSkill5')}}<br>
-                                {{$t('otherSkill6')}}<br>
-                                {{$t('otherSkill7')}}<br>
-                                {{$t('otherSkill8')}}
-                            </p>
+                           <ul class="exp-list">
+                                <li v-for="item in $t('otherSkillz')" :key="item.skill">{{ item.skill }}</li>
+                            </ul>
                         </div>
                     </article>
                 </section>
-                <section class="resume-col" v-on:click="colAction">
+                <section class="resume-col" >
                     <h2>{{$t('titleCourses')}}</h2>
                     <article class="resume-item">
                         <h3 class="resume-item__heading">2019</h3>
@@ -181,6 +134,7 @@
 
 
 <script>
+
 export default {
     head () {
         return {
@@ -196,16 +150,10 @@ export default {
     },
     data() {
         return {
-            colHidden: true
+            colHidden: true,
         }
     },
-    methods: {
-        colAction: function () {
-            if (window.innerWidth <= 767) {
-                // future code
-            }
-        }
-    }
+
 }
 </script>
 
@@ -276,13 +224,18 @@ export default {
         margin-top: 15px;
     }
 
-    .resume-item__description p {
+    .resume-item__description p,
+    .resume-item__description ul {
         margin-bottom: 15px;
         font-style: normal;
         font-weight: 400;
         font-size: 15px;
         line-height: 160%;
         color: #000000;
+    }
+
+    .resume-item__description ul {
+        padding-left: 15px;
     }
 
     .resume-item__description p:last-child {

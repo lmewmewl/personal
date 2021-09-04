@@ -14,10 +14,10 @@ const messagesEn = {
         // about
         someAboutMe: 'A little about me',
         aboutText1: 'My name is Constantine, i\'m ',
-        aboutText2: 'frontend development and project management.',
+        aboutText2: 'frontend development and project manager.',
         aboutText3: 'Currently I live in',
         aboutText4: 'Saint-Petersburg',
-        aboutText5: ' (but ready to move to European countries ;) ).',
+        aboutText5: ' (ready to move abroad).',
         aboutText6: 'I like working with everything that is visual and has a code, so I decided to go to',
         aboutText7: 'frontend development',
         aboutText8: 'also uses various web designer tools. I do not stop at this and try something new.',
@@ -45,7 +45,7 @@ const messagesEn = {
         titleCompanie5: 'Sberbank',
 
 
-        titleSkill1: 'Frontend',
+        titleSkill1: 'Development',
         titleSkill2: 'UI / UX, image editing',
         titleSkill3: 'Management',
         titleSkill4: 'Other',
@@ -64,26 +64,6 @@ const messagesEn = {
         educationInfo5: 'Master\'s Degree, Production Management',
         educationInfo6: 'Bachelor\'s Degree, Management',
 
-        managementSkill1: 'Communication with enterprise customers',
-        managementSkill2: 'Logging of meetings',
-        managementSkill3: 'Collection and formalization of requirements',
-        managementSkill4: 'Timing evaluation',
-        managementSkill5: 'Quality control of tasks',
-        managementSkill6: 'Working with accounts',
-        managementSkill7: 'Development team management',
-        managementSkill8: 'Internal product management',
-        managementSkill9: 'Planning',
-        managementSkill10: 'Prototyping',
-
-        otherSkill1: 'UAV control (FPV, DJI)',
-        otherSkill2: 'Photography on semi-professional SLR cameras',
-        otherSkill3: 'Soldering ',
-        otherSkill4: 'Excellent knowledge of PC and office tech\'s',
-        otherSkill5: 'Organization of an ergonomic workspace',
-        otherSkill6: 'Basic concepts of blockchain systems',
-        otherSkill7: 'DeFi user',
-        otherSkill8: 'English B1',
-
 
 
         myPosition1: 'Frontend developer, project manager',
@@ -93,37 +73,107 @@ const messagesEn = {
         myPosition5: 'Promoter Consultant',
 
 
-        myExp1: 'Project management',
-        myExp2: 'Communication with Russian and foreign customers',
-        myExp3: 'Meetings protocols creation',
-        myExp4: 'Collection and formalization of requirements for tasks',
-        myExp5: 'Estimation of terms, determination of implementer',
-        myExp6: 'Quality control of tasks',
-        myExp7: 'Participation in the development of internal product',
-        myExp8: 'Development of corporate portals',
-        myExp9: 'Development of internal modules and applications',
-        myExp10: 'Support and expansion of corporate portals',
-        myExp11: 'Developing apps and services using Vue JS',
-        myExp12: 'Editing graphics and layouts',
-        myExp13: 'Website development',
-        myExp14: 'Landing page development',
-        myExp15: 'Customer technical support',
-        myExp16: 'Layout based development',
-        myExp17: 'Bootstrap based development',
-        myExp18: 'PixelPerfect based development',
-        myExp19: 'Custom CMS (yii based) install and  layout editing',
-        myExp20: 'Setting up advertising campaigns on Avito',
-        myExp21: 'Installing and monitoring of Google Tag Manager and Yandex.Metrica counters',
-        myExp22: 'Consulting and training customers on custom CMS',
-        myExp23: 'Repair of office equipment',
-        myExp24: 'Repair of PC, laptops',
-        myExp25: 'Repair of phones, smartphones',
-        myExp26: 'Repair of components (motherboards, video adapters)',
-        myExp27: 'Prevention and diagnostics of computers and office equipment',
-        myExp28: 'Installation of networks, setting up routers and modems',
-        myExp29: 'Refilling cartridges',
-        myExp30: 'Assistance to bank customers with self-service devices',
-        myExp31: 'Consulting and referral to responsible specialists',
+        skillsDev: [
+            {skill: 'HTML5'},
+            {skill: 'CSS (Vanila CSS, LESS, SCSS, Bootstrap)'},
+            {skill: 'Javascript (jQuery, Vue JS, Nuxt JS)'},
+            {skill: 'Dart (Flutter)'},
+            {skill: 'SVG'},
+            {skill: 'Git'},
+        ],
+
+        uxui: [
+            {skill: 'Figma'},
+            {skill: 'Photoshop'},
+            {skill: 'Lightroom'},
+            {skill: 'CorelDRAW'},
+        ],
+
+        management: [
+            {skill: 'Communication with enterprise customers'},
+            {skill: 'Logging of meetings'},
+            {skill: 'Collection and formalization of requirements'},
+            {skill: 'Timing evaluation'},
+            {skill: 'Quality control of tasks'},
+            {skill: 'Working with accounts'},
+            {skill: 'Development team management'},
+            {skill: 'Internal product management'},
+            {skill: 'Planning'},
+            {skill: 'Prototyping'},
+        ],
+
+        otherSkillz: [
+            {skill: 'UAV control (FPV, DJI)'},
+            {skill: 'Photography on semi-professional SLR cameras'},
+            {skill: 'Soldering'},
+            {skill: 'Excellent knowledge of PC and office equipment'},
+            {skill: 'Organization of an ergonomic workspace'},
+            {skill: 'Basic concepts of blockchain systems'},
+            {skill: 'DeFi user'},
+            {skill: 'English B1 (need more practice in communication)'},
+        ],
+
+
+        managmentExp: [
+            {skill: 'Cross-functional team management.'},
+            {skill: 'Stakeholders management: feedback collection, backlog grooming.'},
+            {skill: 'Progress tracking and reporting.'},
+            {skill: 'Project documentation development (project knowledge base).'},
+            {skill: 'Stakeholders management.'},
+            {skill: 'Creating design prototypes.'},
+            {skill: 'Clarified the requirements, interfaces, and architecture.'},
+            {skill: 'Delivered on time and on budget.'},
+            {skill: 'Analyzing risks, mitigated issues and reported;'},
+            {skill: 'Communication and management foreign clients (Germany).'},
+        ],
+
+        expDevMCArt: [
+            {skill: 'Developing enterprise portals for intranet / extranet clients (B2B, B2C), with IE10 support.'},
+            {skill: 'Developing internal modules and apps for marketplace.'},
+            {skill: 'Developing apps using Bitrix REST API.'},
+            {skill: 'Developing apps and services using Vue JS (v2).'},
+            {skill: 'Developing internal mobile product using Flutter framework.'},
+            {skill: 'Developing and maintaining a knowledge base'},
+            {skill: ' Communicated with back-end developers for any front-end problematic issues.'},
+            {skill: 'UX/UI consult.'},
+            {skill: 'Design editing and creaction (Adobe PS, Figma).'}
+        ],
+
+        expDevDigimatix: [
+            {skill: 'Creating modular, responsive templates using modern CSS techniques (include Bootstrap) and JavaScript libraries (GULP).'},
+            {skill: 'Creating teamplates for highload B2C marketplaces.'},
+            {skill: 'Landing page development.'},
+            {skill: 'Implementing PixelPerfect layouts to existing websites.'},
+            {skill: 'Communication and tech support for clients.'},
+            {skill: 'UX/UI consulting.'},
+            {skill: 'Editing graphics for web development (Adobe PS).'},
+        ],
+
+        expDevMKMedia: [
+            {skill: 'Developing cross-browser/platform HTML5, CSS and JavaScript to match design specs for complex page layouts while adhering to code standards.'},
+            {skill: 'Using best practices in HTML and CSS to develop a static site based from a static image of a website design'},
+            {skill: 'Implementing a mobile-first approach to existing websites.'},
+            {skill: 'Close collaborating with designers and back-end dev team.'},
+            {skill: 'Working directly with client stakeholders to develop technical solutions for business cases.'},
+            {skill: 'Landing page development'},
+            {skill: 'Editing graphics for web development (Adobe PS)'},
+        ],
+
+        expEngCSaS: [
+            {skill: 'Repair of office equipment'},
+            {skill: 'Repair of PC, laptops'},
+            {skill: 'Repair of phones, smartphones'},
+            {skill: 'Repair of components (motherboards, video adapters)'},
+            {skill: 'Diagnostics of computers and office equipment.'},
+            {skill: 'Installation of networks, setting up routers and modems.'},
+            {skill: 'Refilling cartridges.'},
+        ],
+
+        expPromSber: [
+            {skill: 'Assisting customers with self-service devices and ATMs'},
+            {skill: 'Services consulting'},
+        ],
+        
 
 
         // header
