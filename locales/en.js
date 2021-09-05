@@ -191,7 +191,7 @@ const messagesEn = {
 
         // header
 
-        indexTitle: 'Hello! This is main page of my site!',
+        indexTitle: 'Hello! This is my site main page!',
         aboutTitle: 'About me',
         resumeTitle: 'Resume',
         contactsTitle: 'My contacts',
