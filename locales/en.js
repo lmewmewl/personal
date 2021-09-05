@@ -191,7 +191,7 @@ const messagesEn = {
 
         // header
 
-        indexTitle: 'Hello! This is my site main page!',
+        indexTitle: 'Frontend developer • Constatine Fateev',
         aboutTitle: 'About me',
         resumeTitle: 'Resume',
         contactsTitle: 'My contacts',

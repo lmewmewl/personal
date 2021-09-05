@@ -192,7 +192,7 @@ const messagesRu = {
 
     // header
 
-    indexTitle: 'Привет! Ты на главной странице моего сайта!',
+    indexTitle: 'Фронтенд разработчик • Константин Фатеев',
     aboutTitle: 'Это страница обо мне',
     resumeTitle: 'Резюме',
     contactsTitle: 'Мои контакты',
