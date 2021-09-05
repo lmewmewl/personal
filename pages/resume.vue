@@ -7,7 +7,7 @@
                     <h2>{{$t('titleExp')}}</h2>
                     <article class="resume-item">
                         <h3 class="resume-item__heading">2015 - {{$t('currentTimeTitle')}}</h3>
-                        <a href="https://www.mcart.ru/" target="_blank"   class="resume-item__link">{{$t('titleFreelance')}}</a>
+                        <a href="https://cffrontend.xyz/"  class="resume-item__link">{{$t('titleFreelance')}}</a>
                         <div class="resume-item__subtitle">{{$t('myPosition2')}}</div>
                         <div class="resume-item__description">
 
