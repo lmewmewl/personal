@@ -11,11 +11,11 @@
                         <div class="resume-item__subtitle">{{$t('myPosition1')}}</div>
                         <div class="resume-item__description">
 
-                            <h4>Management</h4>
+                            <h4>{{$t('subHeadingsExp[0].heading')}}</h4>
                             <ul class="exp-list">
                                 <li v-for="item in $t('managmentExp')" :key="item.skill">{{ item.skill }}</li>
                             </ul>
-                            <h4>Development</h4>
+                            <h4>{{$t('subHeadingsExp[1].heading')}}</h4>
                             <ul class="exp-list">
                                 <li v-for="item in $t('expDevMCArt')" :key="item.skill">{{ item.skill }}</li>
                             </ul>

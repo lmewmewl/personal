@@ -121,10 +121,15 @@ const messagesEn = {
             {skill: 'Project documentation development (project knowledge base).'},
             {skill: 'Stakeholders management.'},
             {skill: 'Creating design prototypes.'},
-            {skill: 'Clarified the requirements, interfaces, and architecture.'},
+            {skill: 'Clarifying the requirements, interfaces, and architecture.'},
             {skill: 'Delivered on time and on budget.'},
-            {skill: 'Analyzing risks, mitigated issues and reported;'},
+            {skill: 'Analyzing risks, mitigated issues and reported.'},
             {skill: 'Communication and management foreign clients (Germany).'},
+        ],
+
+        subHeadingsExp: [
+            {heading: 'Management'},
+            {heading: 'Development'},
         ],
 
         expDevMCArt: [
@@ -134,14 +139,14 @@ const messagesEn = {
             {skill: 'Developing apps and services using Vue JS (v2).'},
             {skill: 'Developing internal mobile product using Flutter framework.'},
             {skill: 'Developing and maintaining a knowledge base'},
-            {skill: ' Communicated with back-end developers for any front-end problematic issues.'},
+            {skill: 'Communicating with back-end developers for any front-end problematic issues.'},
             {skill: 'UX/UI consult.'},
             {skill: 'Design editing and creaction (Adobe PS, Figma).'}
         ],
 
         expDevDigimatix: [
             {skill: 'Creating modular, responsive templates using modern CSS techniques (include Bootstrap) and JavaScript libraries (GULP).'},
-            {skill: 'Creating teamplates for highload B2C marketplaces.'},
+            {skill: 'Creating templates for highload B2C marketplaces.'},
             {skill: 'Landing page development.'},
             {skill: 'Implementing PixelPerfect layouts to existing websites.'},
             {skill: 'Communication and tech support for clients.'},
