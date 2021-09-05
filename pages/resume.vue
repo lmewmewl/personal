@@ -6,6 +6,18 @@
                 <section class="resume-col" >
                     <h2>{{$t('titleExp')}}</h2>
                     <article class="resume-item">
+                        <h3 class="resume-item__heading">2015 - {{$t('currentTimeTitle')}}</h3>
+                        <a href="https://www.mcart.ru/" target="_blank"   class="resume-item__link">{{$t('titleFreelance')}}</a>
+                        <div class="resume-item__subtitle">{{$t('myPosition2')}}</div>
+                        <div class="resume-item__description">
+
+                            <ul class="exp-list freelance-list">
+                                <li v-for="item in $t('expFreelance')" :key="item.skill">{{ item.skill }}</li>
+                            </ul>
+
+                        </div>
+                    </article>
+                    <article class="resume-item">
                         <h3 class="resume-item__heading">2018 - {{$t('currentTimeTitle')}}</h3>
                         <a href="https://www.mcart.ru/" target="_blank"   class="resume-item__link">{{$t('titleCompanie1')}}</a>
                         <div class="resume-item__subtitle">{{$t('myPosition1')}}</div>
@@ -240,6 +252,10 @@ export default {
 
     .resume-item__description p:last-child {
         margin-bottom: 0px;
+    }
+
+    .freelance-list li:last-child {
+        font-weight: bold;
     }
 
     

@@ -38,6 +38,7 @@ const messagesEn = {
         titleSkilzzz: 'Skills',
         titleCourses: 'Education and courses',
 
+        titleFreelance: 'Freelance',
         titleCompanie1: 'MCArt',
         titleCompanie2: 'Digimatix',
         titleCompanie3: 'MK - Media',
@@ -179,6 +180,13 @@ const messagesEn = {
             {skill: 'Services consulting'},
         ],
         
+        expFreelance: [
+            {skill: 'Verbal and written communications between companies and clients.'},
+            {skill: ' Meeting with clients to review website, gathering the client requests specifications for new or existing websites.'},
+            {skill: 'Developing cross-browser websites (shops, education sites, landing pages, marketing pages)'},
+            {skill: 'UX/UI consulting.'},
+            {skill: 'Developed and edited 100+ responsive websites for clients in a variety of industries.'},
+        ],
 
 
         // header
