@@ -31,8 +31,6 @@
                             <ul class="exp-list">
                                 <li v-for="item in $t('expDevMCArt')" :key="item.skill">{{ item.skill }}</li>
                             </ul>
-                            
-
                         </div>
                     </article>
                     <article class="resume-item">
